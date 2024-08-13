@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* Reset some default styling */
+body, h1, p, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo img {
+    width: 272px;
+    height: auto;
+}
+
+.search-bar {
+    margin-top: 20px;
+    color: grey;
+}
+
+input[type="text"] {
+    width: 500px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 24px;
+    outline: none;
+}
+
+button {
+    color: grey;
+    background-color: #f8f8f8;
+    border: 1px solid #dcdcdc;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f1f1f1;
+}
+
+button:active {
+    background-color: #e8e8e8;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9KsodcPAOCkWT9IXnJBylMNKWQ9e0XVcYSQ&s" alt="Google Logo">
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search Google or type a URL"><br>
+            <button type="submit">Google Search</button>
+        </div>
+    </div>
+</body>
+</html>
